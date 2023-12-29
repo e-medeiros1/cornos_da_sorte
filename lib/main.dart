@@ -59,7 +59,7 @@ class _BingoGridState extends State<BingoGrid> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text('Card Number: $cardNumber'),
+        Text('Título nº: $cardNumber'),
         Expanded(
           child: GridView.builder(
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
